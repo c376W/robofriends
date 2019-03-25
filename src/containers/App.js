@@ -6,6 +6,7 @@ import Scroll from '../components/Scroll';
 import ErrorBoundry from '../components/ErrorBoundry';
 import './App.css';
 //Testing if this is the robo app
+//Would like to change the color.
 class App extends Component{
 	constructor(){
 		super()
