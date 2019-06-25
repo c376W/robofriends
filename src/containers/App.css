@@ -10,3 +10,19 @@ h1{
 	font-weight: 200;
 	color:#FFAAAA;
 }
+
+.title-size{
+	font-size:3rem;
+}
+
+@media(max-width:380px){
+	.title-size{
+		font-size: 2rem;
+	}
+}
+
+@media(max-width:250px){
+	.title-size{
+		font-size: 1rem;
+	}
+}
