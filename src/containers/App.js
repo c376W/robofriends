@@ -1,9 +1,9 @@
 import React, {Component} from 'react';
 import CardList from '../components/CardList';
 import SearchBox from '../components/SearchBox';
-import Scroll from '../components/Scroll';
+// import Scroll from '../components/Scroll';
 // import {robots} from './robots';
-import ErrorBoundry from '../components/ErrorBoundry';
+// import ErrorBoundry from '../components/ErrorBoundry';
 import './App.css';
 //Testing if this is the robo app
 //Would like to change the color.
@@ -39,13 +39,13 @@ class App extends Component{
 
 			(
 				<div className='tc'>
-					<h1 className='title-size'>RoboFriends</h1>
+					<h1 className='title-size'>KittieFriends</h1>
 					<SearchBox searchChange={this.onSearchChange}/>
-					<Scroll>
-						<ErrorBoundry>
+					{/* <Scroll>
+						<ErrorBoundry> */}
 							<CardList robots={filteredRobots}/>
-						</ErrorBoundry>
-					</Scroll>
+						{/* </ErrorBoundry>
+					</Scroll> */}
 				</div>
 			);
 	}	
